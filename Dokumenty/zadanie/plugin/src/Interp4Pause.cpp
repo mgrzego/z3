@@ -32,7 +32,7 @@ const char* Interp4Pause::GetCmdName() const
   return "Pause";
 }
 
-
+//zawiesza wykonanie na min time_ms
 bool Interp4Pause::ExecCmd( DronPose *pRobPose, Visualization *pVis) const
 {
   usleep(time_ms * 1000.0);
