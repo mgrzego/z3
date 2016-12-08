@@ -28,7 +28,7 @@ int main(int argc, char * argv[])
   manager.addPlugin(PLUGIN5);
   
   if(argc == 2){ // program w trybie wykonania pojedynczego pliku komend
-    if(!manager.loadAndExecuteCommandFile(string(argv[1])))
+    if(!manager.loadAndExecuteCommandFile(string(argv[1]))) //zmiany
       return -1;
     cout << "Aby zakonczyc nacisnij klawisz ENTER" << endl;
     cin >> skipws;
