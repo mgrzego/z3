@@ -1,0 +1,7 @@
+ReadScene scene.xml
+Pause 600
+Rotate -90 90
+Fly 90 45 90
+Fly 30 40 90
+Rotate 90 90
+Fly 45 -10 90

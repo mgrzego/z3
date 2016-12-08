@@ -1,0 +1,31 @@
+/*!
+  \mainpage  Interpreter komend dla platformy mobilnej
+
+   Interpreter poleceń stworzony jest na potrzeby symulacji lotu drona. Jest on oparty na wtyczkach, dostarczonych jako biblioteki dzielone ładowane dynamicznie w trakcie działania programu. Z każdym rodzajem polecenia skojarzona jest odpowiednia wtyczka, która obsługuje dane polecenie. 
+
+ */
+
+/*!
+
+  \page strona_glowna Sposób działania interpreta
+
+  \tableofcontents
+
+  \section etykieta_zalozenia Podstawowe założenia
+
+   Interpreter poleceń czyta polecenia z pliku, w którym 
+   mogą być występować definicje symboli makr w sensie
+   języka C, jak też komentarze o budowie właściwej dla tego
+   języka. Przeczytane komendy są na bieżąco wykonywane i wizualizowane. 
+
+
+ \section etykieta_algorytm Opis algorytmu działania
+
+ Ponieżej przedstawiona jest podstawowa pętla przebiegu
+ procesu interpretacji listy poleceń, oraz ich egzekwowania.
+
+  \image html diagram_czynnosci.png
+
+
+
+*/

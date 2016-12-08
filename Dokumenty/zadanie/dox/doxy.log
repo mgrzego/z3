@@ -1,0 +1,21 @@
+warning: doxygen no longer ships with the FreeSans font.
+You may want to clear or change DOT_FONTNAME.
+Otherwise you run the risk that the wrong font is being used for dot generated graphs.
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/piotrek/Programowanie/w10prog/xerces/inc/DronPose.hh:67: warning: unable to resolve link to `DronPose::AfterUpdate' for \link command
+/home/piotrek/Programowanie/w10prog/xerces/inc/DronPose.hh:51: warning: argument 'rWsp' of command @param is not found in the argument list of DronPose::SetPos_m(const Wektor3D &rWsp_m)
+/home/piotrek/Programowanie/w10prog/xerces/inc/DronPose.hh:51: warning: argument 'y_m' of command @param is not found in the argument list of DronPose::SetPos_m(const Wektor3D &rWsp_m)
+/home/piotrek/Programowanie/w10prog/xerces/inc/DronPose.hh:60: warning: The following parameters of DronPose::SetPos_m(const Wektor3D &rWsp_m) are not documented:
+  parameter 'rWsp_m'
+/home/piotrek/Programowanie/w10prog/xerces/src/xmlparser4scene.cpp:131: warning: Unsupported xml/html tag </Action> found
+/home/piotrek/Programowanie/w10prog/xerces/inc/xmlparser4scene.hh:44: warning: The following parameters of XMLParser4Scene::endElement(const XMLCh *const pURI, const XMLCh *const pLocalName, const XMLCh *const pQName) are not documented:
+  parameter 'pURI'
+  parameter 'pQName'
+/home/piotrek/Programowanie/w10prog/xerces/src/xmlparser4scene.cpp:187: warning: argument 'Except' of command @param is not found in the argument list of XMLParser4Scene::error(const xercesc::SAXParseException &Exception)
+/home/piotrek/Programowanie/w10prog/xerces/inc/xmlparser4scene.hh:57: warning: The following parameters of XMLParser4Scene::error(const xercesc::SAXParseException &Exception) are not documented:
+  parameter 'Exception'
+/home/piotrek/Programowanie/w10prog/xerces/inc/xmlparser4scene.hh:34: warning: The following parameters of XMLParser4Scene::startElement(const XMLCh *const pURI, const XMLCh *const pLocalName, const XMLCh *const pQNname, const xercesc::Attributes &Attrs) are not documented:
+  parameter 'pURI'
+  parameter 'pQNname'
